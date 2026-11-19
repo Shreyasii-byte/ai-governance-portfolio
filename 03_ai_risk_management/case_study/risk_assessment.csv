@@ -1,0 +1,8 @@
+Risk_ID,Risk,Category,Likelihood,Impact,Priority,Recommended_Control
+R01,Historical lending bias,Fairness,High,High,Critical,Test outcomes across relevant applicant groups
+R02,Incorrect loan recommendation,Reliability,Medium,High,High,Validate model and require human review
+R03,Personal financial data exposure,Privacy,Medium,High,High,Access controls and data minimisation
+R04,Unexplainable recommendations,Transparency,Medium,High,High,Document model logic and provide explanations
+R05,Overreliance on automated decisions,Human Oversight,Medium,High,High,Train credit officers and preserve decision authority
+R06,Model performance deterioration,Monitoring,Medium,Medium,Medium,Continuous monitoring and periodic reassessment
+R07,Unauthorised model or data access,Security,Low,High,Medium,Security testing and access management
