@@ -1,0 +1,8 @@
+Risk_ID,Risk_Category,Risk_Description,Affected_Stakeholder,Likelihood,Severity,Mitigation,Human_Oversight
+R01,Hallucination,Chatbot generates incorrect refund policy information,Customer,High,High,Ground responses in verified policy documents,Human review for disputed refunds
+R02,Privacy,Customer personal information is exposed,Customer,Medium,High,Data minimisation and access controls,Security team oversight
+R03,Fairness,Chatbot provides unequal service across language groups,Customer,Medium,Medium,Multilingual testing and accessibility evaluation,Periodic human audits
+R04,Security,Users manipulate chatbot to reveal restricted information,Organisation,Medium,High,Input validation and security testing,Security monitoring
+R05,Accountability,Customers cannot identify who is responsible for incorrect advice,Customer,Medium,High,Disclose AI use and provide complaint channels,Human escalation
+R06,Overreliance,Support agents accept AI outputs without verification,Support agents,Medium,Medium,Staff training and review procedures,Supervisor review
+R07,Availability,Chatbot becomes unavailable during service disruption,Customer,Low,Medium,Backup support channels,Human support fallback
